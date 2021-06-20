@@ -10,6 +10,7 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { AngularPipeComponent } from './angular-pipe/angular-pipe.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { AngularPipeComponent } from './angular-pipe/angular-pipe.component';
     NgIfComponent,
     NgForComponent,
     NgSwitchComponent,
-    AngularPipeComponent
+    AngularPipeComponent,
   ],
   imports: [
     BrowserModule,

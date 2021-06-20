@@ -1,1 +1,19 @@
-
+<div class="row mb-0 mr-0 ml-0">
+    <div class="card col-md-6 offset-md-3">
+      <div class="card-header text-center">
+        <h5>Testing of ngSwitch</h5>
+      </div>
+      <div class="card-body ">
+        <div class="row">
+          <h5>{{ firstName | lowercase }} {{ lastName | lowercase }}</h5>
+          <h5>{{ firstName | uppercase }} {{ lastName | uppercase }}</h5>
+          <h5>{{ firstName | titlecase }}
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-outline-success " (click)="onClick($event)">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
