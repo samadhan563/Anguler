@@ -1,0 +1,28 @@
+<div class="row mb-0 mr-0 ml-0">
+    <div class="card col-md-6 offset-md-3">
+        <div class="card-header text-center">
+            <h5>Testing of ngIf</h5>
+        </div>
+        <div class="card-body ">
+            <div *ngIf="show;else elseBlock">
+                <h5>I am Using Angular</h5>
+            </div>
+            <ng-template>
+                <h5>I am Using React</h5>
+            </ng-template>
+
+            <div *ngIf="show; then thenBlock; else elseBlock">this is ignored</div>
+            <ng-template #thenBlock>
+                <h5>I am Using Angular</h5>
+            </ng-template>
+            <ng-template #elseBlock>
+                <h5>I am Using React</h5>
+            </ng-template>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-outline-success " style="margin-left: 7px;" (click)="onClick($event)">
+                Submit
+            </button>
+        </div>
+    </div>
+</div>
