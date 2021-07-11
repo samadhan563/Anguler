@@ -1,0 +1,22 @@
+[
+  {
+    "empId": 1,
+    "firstName": "Samadhan",
+    "lastName": "Gaikwad",
+    "role": "Software Developer"
+  },
+  {
+    "empId": 2,
+    "firstName": "Rohit",
+    "lastName": "Auti",
+    "role": "Software Developer"
+  },
+  {
+    "empId": 3,
+    "firstName": "Arjun",
+    "lastName": "Nikam",
+    "role": "Full Stack Developer"
+  },
+  { "empId": 4, "firstName": "Vinod", "lastName": "Navle", "role": "Trainee" },
+  { "empId": 5, "firstName": "Mahesh", "lastName": "Jadhav", "role": "Trainee" }
+]
